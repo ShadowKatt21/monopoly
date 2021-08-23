@@ -10,6 +10,12 @@ namespace Monopoly
 
     class Bad
     {
+        void sqlinject(String txtUserId)
+        {
+            var txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
+
+        }
+
         double ParseInt(string s)
         {
             var success = int.TryParse(s, out int i);

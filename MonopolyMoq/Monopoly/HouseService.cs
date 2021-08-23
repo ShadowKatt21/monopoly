@@ -32,6 +32,13 @@ namespace Monopoly
 
             _playerRepository.SavePlayer(player);
             _propertyRepository.SaveProperty(property);
+
+            RubbishMethod(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         }
+
+        public void RubbishMethod(int q, int w, int e, int r, int t, int y, int u, int i, int o, int p)
+            {
+            }
+
     }
 }

@@ -22,7 +22,6 @@ C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\bin\Debug\Monopoly.pdb
 C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\bin\Debug\Moq.dll
 C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\bin\Debug\Moq.xml
-C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\obj\Debug\Monopoly.csproj.AssemblyReference.cache
 C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\obj\Debug\Monopoly.csproj.CoreCompileInputs.cache
 C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\obj\Debug\Monopoly.csproj.CopyComplete
 C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\obj\Debug\Monopoly.dll

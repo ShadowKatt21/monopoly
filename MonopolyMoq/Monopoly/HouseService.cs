@@ -37,8 +37,20 @@ namespace Monopoly
         }
 
         public void RubbishMethod(int q, int w, int e, int r, int t, int y, int u, int i, int o, int p)
+         {
+            var password = "Password";
+            int ghg; //unused
+
+            if (password is null)
+                return;
+
+            for (int j = 0; j < 10; j++)
             {
+                ;
             }
+
+            return;
+         }
 
     }
 }

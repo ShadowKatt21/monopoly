@@ -26,3 +26,4 @@ C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\obj\Debug\Monopoly.csp
 C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\obj\Debug\Monopoly.csproj.CopyComplete
 C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\obj\Debug\Monopoly.dll
 C:\Users\pgreg\Source\Repos\attd-tdd\MonopolyMoq\Monopoly\obj\Debug\Monopoly.pdb
+C:\Users\pgreg\source\repos\attd-tdd\MonopolyMoq\Monopoly\obj\Debug\Monopoly.csproj.AssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\NM8\attd-tdd\MonopolyHandCrafted\Monopoly\bin\Debug\Monopoly.dll
+C:\NM8\attd-tdd\MonopolyHandCrafted\Monopoly\bin\Debug\Monopoly.pdb
+C:\NM8\attd-tdd\MonopolyHandCrafted\Monopoly\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\NM8\attd-tdd\MonopolyHandCrafted\Monopoly\bin\Debug\Moq.dll
+C:\NM8\attd-tdd\MonopolyHandCrafted\Monopoly\bin\Debug\Moq.xml
+C:\NM8\attd-tdd\MonopolyHandCrafted\Monopoly\obj\Debug\MonopolyHandMock.csproj.CoreCompileInputs.cache
+C:\NM8\attd-tdd\MonopolyHandCrafted\Monopoly\obj\Debug\MonopolyHandMock.csproj.CopyComplete
+C:\NM8\attd-tdd\MonopolyHandCrafted\Monopoly\obj\Debug\Monopoly.dll
+C:\NM8\attd-tdd\MonopolyHandCrafted\Monopoly\obj\Debug\Monopoly.pdb

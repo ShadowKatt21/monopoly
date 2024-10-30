@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bff9024e-b8ad-4fc1-b69a-0bbecfd2b3a5": {
+      "ProjectGuid": "bff9024e-b8ad-4fc1-b69a-0bbecfd2b3a5",
+      "DisplayName": "Monopoly",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

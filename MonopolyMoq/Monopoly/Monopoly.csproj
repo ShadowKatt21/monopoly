@@ -54,8 +54,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="bad.cs" />
-    <Compile Include="PlayerRepositoryStub.cs" />
-    <Compile Include="PropertyRepositoryStub.cs" />
     <Compile Include="TestHelper.cs" />
     <Compile Include="HouseService.cs" />
     <Compile Include="IPlayerRepository.cs" />

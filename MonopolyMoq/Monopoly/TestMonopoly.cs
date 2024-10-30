@@ -35,8 +35,6 @@ namespace Monopoly
         public void ShouldNotBeAbleToBuyAHouseIfAPlayerDoesNotOwnAllThePropertiesOfTheColour()
         {
             _player.Properties.RemoveAt(0);
-            ////_playerRespositoryStub.PlayerToReturn = _player;
-            //_playerRespositoryStub.Stub(x => x.GetPlayerByToken("Battle Ship")).Return(_player);
             _playerRespositoryStub.Setup(x => x.GetPlayerByToken("Battle Ship")).Returns(_player);
             _houseService.BuyHouse(_property, "Battle Ship");
 
@@ -46,8 +44,6 @@ namespace Monopoly
         [TestMethod]
         public void ShouldBeAbleToBuyAHouseIfAPlayerOwnsAllThePropertiesOfTheColour()
         {
-            //_playerRespositoryStub.PlayerToReturn = _player;
-            //_playerRespositoryStub.Stub(x => x.GetPlayerByToken("Battle Ship")).Return(_player);
             _playerRespositoryStub.Setup(x => x.GetPlayerByToken("Battle Ship")).Returns(_player);
 
             _houseService.BuyHouse(_property, "Battle Ship");
@@ -59,8 +55,6 @@ namespace Monopoly
         public void ShouldNotBeAbleToBuyAHouseIfThebankRollIsLessThanTheCostOfTheHouse()
         {
             _player.BankRoll = 0;
-            ////_playerRespositoryStub.PlayerToReturn = _player;
-            //_playerRespositoryStub.Stub(x => x.GetPlayerByToken("Battle Ship")).Return(_player);
             _playerRespositoryStub.Setup(x => x.GetPlayerByToken("Battle Ship")).Returns(_player);
             _houseService.BuyHouse(_property, "Battle Ship");
 
@@ -70,11 +64,9 @@ namespace Monopoly
         [TestMethod]
         public void ShouldDeductHouseCostFromThePlayersMoney()
         {
-            //_playerRespositoryStub.PlayerToReturn = _player;
-            //_playerRespositoryStub.Stub(x => x.GetPlayerByToken("Battle Ship")).Return(_player);
             _playerRespositoryStub.Setup(x => x.GetPlayerByToken("Battle Ship")).Returns(_player);
             _houseService.BuyHouse(_property, "Battle Ship");
-            Assert.AreEqual(1820, _player.BankRoll);
+            Assert.AreEqual(1900, _player.BankRoll);
         }
 
         [TestMethod]

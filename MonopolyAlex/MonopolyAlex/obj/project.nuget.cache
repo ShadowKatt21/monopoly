@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7ivR02wYJfA=",
+  "success": true,
+  "projectFilePath": "C:\\Programming\\monopoly\\MonopolyAlex\\MonopolyAlex\\MonopolyAlex.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexo\\.nuget\\packages\\mstest.testframework\\3.6.2\\mstest.testframework.3.6.2.nupkg.sha512"
+  ],
+  "logs": []
+}

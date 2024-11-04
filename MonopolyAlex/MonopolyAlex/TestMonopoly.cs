@@ -32,7 +32,7 @@ public class TestMonopoly
     }
 
     [TestMethod]
-    public void NotBeAbleToBuyAHouseIfAPlayerDoesNotOwnAllThePropertiesOfTheColour()
+    public void NotAbleToBuyAHouseIfPlayerDoesNotOwnAllPropertiesOfSameColour()
     {
         _player.Properties.RemoveAt(0);
         _playerRespositoryStub.PlayerToReturn = _player;
@@ -42,7 +42,7 @@ public class TestMonopoly
     }
 
     [TestMethod]
-    public void ShouldBeAbleToBuyAHouseIfAPlayerOwnsAllThePropertiesOfTheColour()
+    public void AbleToBuyAHouseIfPlayerOwnsAllPropertiesOfSameColour()
     {
         _playerRespositoryStub.PlayerToReturn = _player;
 
@@ -53,7 +53,7 @@ public class TestMonopoly
     }
 
     [TestMethod]
-    public void ShouldNotBeAbleToBuyAHouseIfThebankRollIsLessThanTheCostOfTheHouse()
+    public void NotBeAbleToBuyAHouseIfBankRollIsLessThanCostOfHouse()
     {
         _player.BankRoll = 0;
         _playerRespositoryStub.PlayerToReturn = _player;
@@ -64,7 +64,7 @@ public class TestMonopoly
     }
 
     [TestMethod]
-    public void ShouldDeductHouseCostFromThePlayersMoney()
+    public void DeductHouseCostFromPlayersMoney()
     {
         _playerRespositoryStub.PlayerToReturn = _player;
 
@@ -73,7 +73,7 @@ public class TestMonopoly
     }
 
     [TestMethod]
-    public void ShouldSaveProperty()
+    public void SaveProperty()
     {
         
         _houseService.BuyHouse(_property, "Battle Ship");
@@ -82,7 +82,7 @@ public class TestMonopoly
     }
 
     [TestMethod]
-    public void ShouldSavePlayer()
+    public void SavePlayer()
     {
     
 

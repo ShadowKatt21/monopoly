@@ -5,7 +5,7 @@ public class TestHelper
     public static Player CreatePlayer()
     {
         var player = new Player();
-        player.BankRoll = 50;
+        player.BankRoll = 2000;
         player.Token = "Battle Ship";
         player.Properties = GetProperties();
 

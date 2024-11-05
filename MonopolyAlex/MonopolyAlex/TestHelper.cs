@@ -1,11 +1,11 @@
 ﻿namespace MonopolyAlex;
 
-internal class TestHelper
+public class TestHelper
 {
     public static Player CreatePlayer()
     {
         var player = new Player();
-        player.BankRoll = 2000;
+        player.BankRoll = 50;
         player.Token = "Battle Ship";
         player.Properties = GetProperties();
 

@@ -1,6 +1,6 @@
 ﻿namespace MonopolyAlex;
 
-internal class TestHelper
+public class TestHelper
 {
     public static Player CreatePlayer()
     {

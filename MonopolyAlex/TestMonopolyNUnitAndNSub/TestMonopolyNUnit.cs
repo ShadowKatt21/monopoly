@@ -3,7 +3,7 @@
 namespace TestMonopolyNUnitAndNSub;
 
 [TestFixture]
-public class Tests
+public class TestMonopolyNUnitMocks
 {
     private Player _player;
     private Property _property;

@@ -8,5 +8,6 @@
     &lt;TestId&gt;NUnit3x::A193DA1D-49A4-4A33-9ED4-49CCD203F880::net8.0::TestMonopolyNUnitAndNSub.Tests.BuyHouse_PropertyHasHousesPlayerHasNoFunds_ReturnHousesAsIs&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::A193DA1D-49A4-4A33-9ED4-49CCD203F880::net8.0::TestMonopolyNUnitAndNSub.Tests.BuyHouse_PlayerHasNoFunds_ReturnHousesAsIs&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::A193DA1D-49A4-4A33-9ED4-49CCD203F880::net8.0::TestMonopolyNUnitAndNSub.Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A193DA1D-49A4-4A33-9ED4-49CCD203F880::net8.0::TestMonopolyNUnitAndNSub.TestMonopolyNSubMocks&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

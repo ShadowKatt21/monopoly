@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestMonopolyNUnitAndNSub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+416a1600cd80b6d2d0a31062bda7769ecef51ce7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64b72e1a51308a50e9b35a6a0ca8614ff1dcd76f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestMonopolyNUnitAndNSub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestMonopolyNUnitAndNSub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

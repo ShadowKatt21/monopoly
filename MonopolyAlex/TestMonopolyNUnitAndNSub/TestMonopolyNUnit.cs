@@ -1,6 +1,4 @@
-﻿using MonopolyAlex;
-
-namespace TestMonopolyNUnitAndNSub;
+﻿namespace TestMonopolyNUnitAndNSub;
 
 [TestFixture]
 public class TestMonopolyNUnitMocks

@@ -1,19 +1,10 @@
 ﻿namespace MonopolyAlex;
 
-public class HouseService
+public class HouseService(IPlayerRepository playerRepository, IPropertyRepository propertyRepository)
 {
-    private readonly IPropertyRepository _propertyRepository;
-    private readonly IPlayerRepository _playerRepository;
-
-    public HouseService(IPlayerRepository playerRepository, IPropertyRepository propertyRepository)
-    {
-        _propertyRepository = propertyRepository;
-        _playerRepository = playerRepository;
-    }
-
     public void BuyHouse(Property property, string token)
     {
-        var player = _playerRepository.GetPlayerByToken(token);
+        var player = playerRepository.GetPlayerByToken(token);
 
         if (property.HasMaxHouses) return;
 
@@ -24,8 +15,8 @@ public class HouseService
         player.BankRoll -= property.HouseCost;
         property.Houses++;
 
-        _playerRepository.SavePlayer(player);
-        _propertyRepository.SaveProperty(property);
+        playerRepository.SavePlayer(player);
+        propertyRepository.SaveProperty(property);
 
     }
 }

@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyAlex", "MonopolyAlex\MonopolyAlex.csproj", "{6CF1DC6F-9502-4C14-B6F6-D7915B6A871C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMonopolyNUnitAndNSub", "TestMonopolyNUnitAndNSub\TestMonopolyNUnitAndNSub.csproj", "{A193DA1D-49A4-4A33-9ED4-49CCD203F880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMonopolyStubsAndMocks", "TestMonopolyStubsAndMocks\TestMonopolyStubsAndMocks.csproj", "{81081F4B-C6C9-4A5F-833F-511E2B0E7325}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{6CF1DC6F-9502-4C14-B6F6-D7915B6A871C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CF1DC6F-9502-4C14-B6F6-D7915B6A871C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CF1DC6F-9502-4C14-B6F6-D7915B6A871C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A193DA1D-49A4-4A33-9ED4-49CCD203F880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A193DA1D-49A4-4A33-9ED4-49CCD203F880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A193DA1D-49A4-4A33-9ED4-49CCD203F880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A193DA1D-49A4-4A33-9ED4-49CCD203F880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81081F4B-C6C9-4A5F-833F-511E2B0E7325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81081F4B-C6C9-4A5F-833F-511E2B0E7325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81081F4B-C6C9-4A5F-833F-511E2B0E7325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81081F4B-C6C9-4A5F-833F-511E2B0E7325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
